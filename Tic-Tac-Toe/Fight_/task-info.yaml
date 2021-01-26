@@ -435,5 +435,309 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/123/stages/658/implement#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: "Error in test #1\n\nProgram ran out of input. You tried to read more,\
+    \ than expected.\n\nPlease find below the output of your program during this failed\
+    \ test.\nNote that the &#39;&gt;&#39; character indicates the beginning of the\
+    \ input line.\n\n---\n\n---------\n|       |\n|       |\n|       |\n---------\n\
+    \nEnter coordinates of next move: \n&gt; 3 4\nCoordinates should be from 1 to\
+    \ 3!\n\nEnter coordinates of next move: \n&gt; 2 4\nCoordinates should be from\
+    \ 1 to 3!\n\nEnter coordinates of next move: \n&gt; 3 1\n---------\n| _ _ _ |\n\
+    | _ _ _ |\n| X _ _ |\n---------\nEnter coordinates of next move: \n&gt; 3 3\n\
+    ---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next\
+    \ move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n\
+    |     _ |\n---------\nEnter coordinates of next move: \n&gt; 2 2\nThis cell is\
+    \ occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 4 4\n\
+    Coordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n&gt; 2\
+    \ 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 1 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 1 3\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n|   _   |\n|\
+    \ X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 2 2\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n|\
+    \ _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt; 3 4\n\
+    Coordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n&gt; 2\
+    \ 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\n\
+    Enter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move: \n&gt;\
+    \ 3 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move: \n\
+    &gt; 2 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of next move:\
+    \ \n&gt; 3 1\nThis cell is occupied! Choose another one!\n\nEnter coordinates\
+    \ of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\n\
+    Enter coordinates of next move: \n&gt; 4 2\nCoordinates should be from 1 to 3!\n\
+    \nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _   |\n| _   _ |\n\
+    |     X |\n---------\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 4 4\nCoordinates should be from 1 to 3!\n\nEnter coordinates of\
+    \ next move: \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\n\
+    Enter coordinates of next move: \n&gt; 1 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n|\
+    \ _   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\n\
+    This cell is occupied! Choose another one!\n\nEnter coordinates of next move:\
+    \ \n&gt; 2 1\n---------\n|   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 3 1\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell\
+    \ is occupied! Choose another one!\n\nEnter coordinates of next move: \n&gt; 3\
+    \ 3\n---------\n|   _   |\n| _   _ |\n|     X |\n---------\nEnter coordinates\
+    \ of next move: \n&gt; 1 1\nThis cell is occupied! Choose another one!\n\nEnter\
+    \ coordinates of next move: \n&gt; 1 2\n---------\n|   X   |\n| _   _ |\n|   \
+    \  _ |\n---------\nEnter coordinates of next move: \n&gt; 1 3\nThis cell is occupied!\
+    \ Choose another one!\n\nEnter coordinates of next move: \n&gt; 2 1\n---------\n\
+    |   _   |\n| X   _ |\n|     _ |\n---------\nEnter coordinates of next move: \n\
+    &gt; 2 2\nThis cell is occupied! Choose another one!\n\nEnter coordinates of next\
+    \ move: \n&gt; 2 3\n---------\n|   _   |\n| _   X |\n|     _ |\n---------\nEnter\
+    \ coordinates of next move: \n&gt; 3 1\nThis cell is occupied! Choose another\
+    \ one!\n\nEnter coordinates of next move: \n&gt; 3 2\nThis cell is occupied! Choose\
+    \ another one!\n\nEnter coordinates of next move: \n&gt; 3 3\n---------\n|   _\
+    \   |\n| _   _ |\n|     X |\n---------\nEnter coordinates of next move:"
+  time: Tue, 26 Jan 2021 04:49:43 UTC
 record: -1
